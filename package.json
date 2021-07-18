@@ -1,0 +1,26 @@
+{
+  "name": "database-creator",
+  "author": "Omar Elsahragty",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm .",
+    "rest": "NODE_ENV=REST node -r esm ."
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "mssql": "^7.1.3",
+    "mysql2": "^2.2.5",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/eslint-parser": "^7.14.5",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
